@@ -1,3 +1,15 @@
+@media (max-width: 768px) {
+  .contenedor-ropa {
+    flex-direction: column; /* Apila las prendas de arriba a abajo */
+    align-items: center; /* Las centra en la pantalla */
+  }
+  
+  .foto-ropa {
+    max-width: 100%; /* Evita que la foto sea más ancha que la propia pantalla */
+    height: auto; /* Mantiene la proporción para que no se deforme */
+  }
+}
+
 html, body {
     max-width: 100%;    /* La web no puede medir más que la pantalla */
     overflow-x: hidden;     /* Evita que aparezca el scroll horizontal */
